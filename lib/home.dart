@@ -126,6 +126,13 @@ class _HomeState extends State<Home> {
             padding: EdgeInsets.only(left: 10.0),
             child: Text('mauroicardi: 3-0'),
           ),
+          const Padding(
+            padding: EdgeInsets.all(10.0),
+            child: Text(
+              'view all 10334 comments',
+              style: TextStyle(color: Colors.grey),
+            ),
+          ),
           SizedBox(
               height: 40,
               child: Row(
