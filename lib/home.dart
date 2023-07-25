@@ -69,7 +69,7 @@ class _HomeState extends State<Home> {
                             width: 40,
                             child: ClipOval(
                               child: Image.asset(
-                                'assets/images/image_5.jpeg',
+                                profileImage[0],
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
               AspectRatio(
                 aspectRatio: 1,
                 child: Image.asset(
-                  'assets/images/image_1.jpeg',
+                  'assets/images/image_5.jpg',
                   fit: BoxFit.cover,
                 ),
               ),
@@ -124,7 +124,7 @@ class _HomeState extends State<Home> {
           ),
           const Padding(
             padding: EdgeInsets.only(left: 10.0),
-            child: Text('someuser: 000 000 Likes5 000 000 Likes5 000 000 ...'),
+            child: Text('mauroicardi: 3-0'),
           ),
           SizedBox(
               height: 40,
@@ -135,7 +135,7 @@ class _HomeState extends State<Home> {
                     child: CircleAvatar(
                       child: ClipOval(
                         child: Image.asset(
-                          profileImage[3],
+                          profileImage[0],
                           fit: BoxFit.cover,
                         ),
                       ),
